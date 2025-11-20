@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main # Change this if your default branch is different (e.g., master)
+
+# Optional: Enable local development mode
+# When testing locally, you can use "test-repo" backend
+# local_backend: true
+
+media_folder: "images/blog" # Where uploaded images will be stored
+public_folder: "/images/blog" # Public path to images
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog Posts" # Used in the UI
+    folder: "blog" # The path to the folder where blog posts are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text", hint: "Short summary for blog listing and SEO"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false, hint: "Optional header image"}
+      - {label: "Categories", name: "categories", widget: "select", multiple: true, options: ["Mixed Income Communities", "Near Market Rentals", "Public Housing", "AODA Compliance", "Tenant Engagement", "Housing Policy"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "SEO Keywords", name: "keywords", widget: "string", required: false, hint: "Comma-separated keywords for SEO"}
