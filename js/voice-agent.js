@@ -14,7 +14,7 @@ class VoiceAgent {
             ? 'https://api.anthropic.com/v1/messages'
             : '/api/chat';
 
-        this.model = 'claude-3-5-sonnet-20240620';
+        this.model = 'claude-3-opus-20240229';
 
         // Speech recognition setup
         this.recognition = null;
