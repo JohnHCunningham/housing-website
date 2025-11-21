@@ -46,8 +46,10 @@ export default async function handler(req, res) {
         if (!response.ok) {
             const errorData = await response.json();
             console.error('Claude API error:', errorData);
+            // Return the full error details for debugging
             return res.status(response.status).json({
-                error: errorData.error?.message || 'API request failed'
+                error: errorData.error?.message || errorData.message || JSON.stringify(errorData.error) || 'API request failed',
+                details: errorData
             });
         }
 
