@@ -1,6 +1,7 @@
 /**
  * Vercel Serverless Function - Claude API Proxy
  * This securely handles Claude API calls server-side
+ * Updated: 2024-11-21
  */
 
 export default async function handler(req, res) {
