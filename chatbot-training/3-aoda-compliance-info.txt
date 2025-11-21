@@ -1,0 +1,116 @@
+AODA COMPLIANCE INFORMATION
+
+What is AODA?
+AODA stands for Accessibility for Ontarians with Disabilities Act. It's Ontario legislation requiring organizations to make their services, spaces, and communications accessible to people with disabilities.
+
+Why AODA Compliance is Critical:
+
+1. Legal Requirement
+   - All Ontario organizations must comply with AODA standards
+   - Penalties for non-compliance: Up to $100,000 per day for serious violations
+
+2. Serve All Community Members
+   - Approximately 1 in 4 Ontarians live with a disability
+   - Accessibility ensures everyone can access your housing services
+
+3. Better Tenant Experience
+   - Accessible communications work better for everyone
+   - Clear, simple processes benefit all tenants
+
+AODA Standards We Help You Meet:
+
+1. PERCEIVABLE
+   - Text alternatives for images
+   - Color contrast that's easy to read
+   - Clear, semantic structure
+
+2. OPERABLE
+   - Full keyboard accessibility
+   - Adequate time for users to complete tasks
+   - Clear, predictable navigation
+
+3. UNDERSTANDABLE
+   - Readable, clear text
+   - Predictable operation
+   - Input assistance and error prevention
+
+4. ROBUST
+   - Works with assistive technologies (screen readers, etc.)
+   - Semantic HTML that technology can interpret
+
+Key AODA Compliance Features:
+
+KEYBOARD NAVIGATION
+- All interactive elements accessible via keyboard
+- Logical tab order through pages
+- Visible focus indicators
+- No keyboard traps
+- Skip-to-content links
+
+SCREEN READER SUPPORT
+- ARIA labels for all interactive elements
+- Proper heading hierarchy (H1, H2, H3)
+- Alt text for all images
+- Form labels properly associated with inputs
+
+VISUAL ACCESSIBILITY
+- WCAG AA compliant color contrast
+- Enhanced focus states
+- Minimum touch targets (44x44px)
+- Information not conveyed by color alone
+
+FORMS & DOCUMENTS
+- Clear, visible labels
+- Required field indicators
+- Autocomplete attributes
+- Accessible PDFs and documents
+
+Common AODA Mistakes to Avoid:
+- Removing or hiding focus indicators
+- Using images of text instead of actual text
+- Relying on color alone to convey information
+- Creating keyboard traps
+- Vague link text like "click here"
+- Skipping heading levels
+- Missing alt text on images
+
+Testing Your AODA Compliance:
+
+Keyboard Testing:
+- Tab through all pages
+- Reach every link and button
+- Activate buttons with Enter/Space
+- Navigate out of forms and modals
+
+Screen Reader Testing Tools:
+- NVDA (Windows - Free): https://www.nvaccess.org/
+- JAWS (Windows): https://www.freedomscientific.com/
+- VoiceOver (Mac - Built-in): Cmd+F5
+- TalkBack (Android - Built-in)
+
+Automated Testing Tools:
+- WAVE: https://wave.webaim.org/
+- axe DevTools: Browser extension
+- Lighthouse: Built into Chrome DevTools
+
+Free AODA Audit:
+We offer a free 30-minute AODA compliance consultation to identify accessibility gaps and help you avoid penalties.
+
+Schedule your audit: https://tidycal.com/aiautomations/aoda-audit
+
+Resources:
+- AODA Standards: https://www.ontario.ca/page/accessibility-laws
+- WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
+- WebAIM Resources: https://webaim.org/
+
+Our AODA Services Include:
+- Full compliance audits
+- Website accessibility implementation
+- Document remediation (PDFs, forms)
+- Staff training on accessibility
+- Ongoing compliance monitoring
+- Accessible communication strategies
+
+Contact Us:
+Email: john@aiadvantagesolutions.ca
+Phone: 905-519-8983
